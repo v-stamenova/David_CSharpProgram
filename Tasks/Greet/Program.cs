@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-using System.Globalization;
+using System.Threading.Tasks;
 
-namespace Greeting
+namespace Greet
 {
     class Program
     {
@@ -13,7 +15,7 @@ namespace Greeting
             Console.Write("Course: ");
             string courseName = Console.ReadLine();
 
-            string greeting = $"Hello {studentName}, and welcome to {courseName}!";
+            string greeting = $"Здравейте {studentName}, и добре дошли в {courseName}!";
             Console.WriteLine(Environment.NewLine + greeting);
         }
     }

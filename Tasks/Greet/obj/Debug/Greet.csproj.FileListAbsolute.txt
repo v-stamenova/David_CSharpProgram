@@ -1,0 +1,7 @@
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Greet\bin\Debug\Greet.exe.config
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Greet\bin\Debug\Greet.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Greet\bin\Debug\Greet.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Greet\obj\Debug\Greet.csprojAssemblyReference.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Greet\obj\Debug\Greet.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Greet\obj\Debug\Greet.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Greet\obj\Debug\Greet.pdb
