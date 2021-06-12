@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "LeapYear\LeapYear.csproj", "{B704ADE3-5747-45A3-88C4-9707907F1062}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{45932342-5AA6-4BC3-B243-98DC4CE32C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B704ADE3-5747-45A3-88C4-9707907F1062}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B704ADE3-5747-45A3-88C4-9707907F1062}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B704ADE3-5747-45A3-88C4-9707907F1062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45932342-5AA6-4BC3-B243-98DC4CE32C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45932342-5AA6-4BC3-B243-98DC4CE32C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45932342-5AA6-4BC3-B243-98DC4CE32C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45932342-5AA6-4BC3-B243-98DC4CE32C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
