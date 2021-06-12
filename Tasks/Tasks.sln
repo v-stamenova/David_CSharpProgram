@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "LeapYear\LeapYe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{45932342-5AA6-4BC3-B243-98DC4CE32C01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveOfErathostenes", "SieveOfErathostenes\SieveOfErathostenes.csproj", "{5DE0F623-65C8-4C8D-84F7-BA624F5768B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{45932342-5AA6-4BC3-B243-98DC4CE32C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45932342-5AA6-4BC3-B243-98DC4CE32C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45932342-5AA6-4BC3-B243-98DC4CE32C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE0F623-65C8-4C8D-84F7-BA624F5768B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE0F623-65C8-4C8D-84F7-BA624F5768B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE0F623-65C8-4C8D-84F7-BA624F5768B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE0F623-65C8-4C8D-84F7-BA624F5768B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
