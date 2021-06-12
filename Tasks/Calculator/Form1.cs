@@ -40,8 +40,6 @@ namespace Calculator
 
             Button button = (Button)sender;
             Operators(button);
-
-            result.Clear();
         }
        
         private void plusorminus_b_Click(object sender, EventArgs e)
@@ -54,8 +52,8 @@ namespace Calculator
         {
             Numbers();
             Output();
-            operation = (char)default;
-            secondNumber = default(double);
+            operation = default;
+            secondNumber = default;
         }
 
         private void Numbers()
@@ -63,13 +61,10 @@ namespace Calculator
             if (operation == default(char))
             {
                 firstNumber = double.Parse(result.Text);
-                MessageBox.Show("1: " + firstNumber.ToString());
             }
             else
             {
                 secondNumber = double.Parse(result.Text);
-                MessageBox.Show("2: " + secondNumber.ToString());
-
             }
         }
 
@@ -105,9 +100,11 @@ namespace Calculator
             {
                 case "÷":
                     operation = '/';
+                    result.Clear();
                     break;
                 case "x":
                     operation = '*';
+                    result.Clear();
                     break;
                 case "√x":
                     result.Text = Math.Sqrt(firstNumber).ToString();
@@ -132,6 +129,7 @@ namespace Calculator
                     break;
                 default:
                     operation = char.Parse(button.Text);
+                    result.Clear();
                     break;
             }
         }
