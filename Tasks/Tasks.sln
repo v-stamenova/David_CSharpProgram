@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greeting", "Greeting\Greeti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{77EDA8F3-624E-4A83-9D62-08479F1D8E61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "LeapYear\LeapYear.csproj", "{B704ADE3-5747-45A3-88C4-9707907F1062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{77EDA8F3-624E-4A83-9D62-08479F1D8E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77EDA8F3-624E-4A83-9D62-08479F1D8E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77EDA8F3-624E-4A83-9D62-08479F1D8E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B704ADE3-5747-45A3-88C4-9707907F1062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B704ADE3-5747-45A3-88C4-9707907F1062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B704ADE3-5747-45A3-88C4-9707907F1062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B704ADE3-5747-45A3-88C4-9707907F1062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\LeapYear\bin\Debug\LeapYear.exe.config
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\LeapYear\bin\Debug\LeapYear.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\LeapYear\bin\Debug\LeapYear.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\LeapYear\obj\Debug\LeapYear.csprojAssemblyReference.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\LeapYear\obj\Debug\LeapYear.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\LeapYear\obj\Debug\LeapYear.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\LeapYear\obj\Debug\LeapYear.pdb
