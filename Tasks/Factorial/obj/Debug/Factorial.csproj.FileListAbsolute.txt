@@ -1,0 +1,9 @@
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\bin\Debug\Factorial.exe.config
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\bin\Debug\Factorial.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\bin\Debug\Factorial.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\obj\Debug\Factorial.csprojAssemblyReference.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\obj\Debug\Factorial.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\obj\Debug\Factorial.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\obj\Debug\Factorial.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\obj\Debug\Factorial.FactorialForm.resources
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\Factorial\obj\Debug\Factorial.csproj.GenerateResource.cache
