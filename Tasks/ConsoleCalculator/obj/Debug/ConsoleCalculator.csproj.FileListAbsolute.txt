@@ -1,0 +1,7 @@
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\ConsoleCalculator\bin\Debug\ConsoleCalculator.exe.config
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\ConsoleCalculator\bin\Debug\ConsoleCalculator.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\ConsoleCalculator\bin\Debug\ConsoleCalculator.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\ConsoleCalculator\obj\Debug\ConsoleCalculator.csprojAssemblyReference.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\ConsoleCalculator\obj\Debug\ConsoleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\ConsoleCalculator\obj\Debug\ConsoleCalculator.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\ConsoleCalculator\obj\Debug\ConsoleCalculator.pdb
