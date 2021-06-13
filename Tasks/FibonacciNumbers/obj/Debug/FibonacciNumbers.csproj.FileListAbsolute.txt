@@ -1,0 +1,7 @@
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\FibonacciNumbers\bin\Debug\FibonacciNumbers.exe.config
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\FibonacciNumbers\bin\Debug\FibonacciNumbers.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\FibonacciNumbers\bin\Debug\FibonacciNumbers.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\FibonacciNumbers\obj\Debug\FibonacciNumbers.csprojAssemblyReference.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\FibonacciNumbers\obj\Debug\FibonacciNumbers.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\FibonacciNumbers\obj\Debug\FibonacciNumbers.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\FibonacciNumbers\obj\Debug\FibonacciNumbers.pdb

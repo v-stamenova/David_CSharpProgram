@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveOfErathostenes", "Siev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{A57F5D96-09DC-4348-8A0A-BBD2389ABC5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{FD413CF2-BDF5-4459-ACD3-E405E884AF85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A57F5D96-09DC-4348-8A0A-BBD2389ABC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A57F5D96-09DC-4348-8A0A-BBD2389ABC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A57F5D96-09DC-4348-8A0A-BBD2389ABC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD413CF2-BDF5-4459-ACD3-E405E884AF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD413CF2-BDF5-4459-ACD3-E405E884AF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD413CF2-BDF5-4459-ACD3-E405E884AF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD413CF2-BDF5-4459-ACD3-E405E884AF85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
