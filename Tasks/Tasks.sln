@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageGradeOfClass", "Aver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCalculator", "ConsoleCalculator\ConsoleCalculator.csproj", "{A19C83E2-D093-4D5F-989A-532FD98C47B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiggestAndSmallestElementOfArray", "BiggestAndSmallestElementOfArray\BiggestAndSmallestElementOfArray.csproj", "{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A19C83E2-D093-4D5F-989A-532FD98C47B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A19C83E2-D093-4D5F-989A-532FD98C47B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A19C83E2-D093-4D5F-989A-532FD98C47B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
