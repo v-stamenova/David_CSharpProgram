@@ -13,11 +13,11 @@ namespace BubbleSort
             Console.Write("Please insert the length of the array: ");
             int length = int.Parse(Console.ReadLine());
             Console.WriteLine("Please insert a value on each line");
-            int[] array = new int[length];
+            double[] array = new double[length];
             int count = 0;
             while (count < length)
             {
-                array[count] = int.Parse(Console.ReadLine());
+                array[count] = double.Parse(Console.ReadLine());
                 count++;
             }
 
@@ -33,7 +33,7 @@ namespace BubbleSort
             Console.WriteLine(string.Join(" ", array));
         }
 
-        private static void BubbleSortAsc(int[] array)
+        private static void BubbleSortAsc(double[] array)
         {
             for (int i = 0; i < array.Length - 1; i++)
             {
@@ -41,7 +41,7 @@ namespace BubbleSort
                 {
                     if (array[j] > array[j + 1])
                     {
-                        int temp = array[j];
+                        double temp = array[j];
                         array[j] = array[j + 1];
                         array[j + 1] = temp;
                     }
@@ -49,7 +49,7 @@ namespace BubbleSort
             }
         }
 
-        private static void BubbleSortDesc(int[] array)
+        private static void BubbleSortDesc(double[] array)
         {
 
             for (int i = 0; i < array.Length - 1; i++)
@@ -58,7 +58,7 @@ namespace BubbleSort
                 {
                     if (array[j] < array[j + 1])
                     {
-                        int temp = array[j];
+                        double temp = array[j];
                         array[j] = array[j + 1];
                         array[j + 1] = temp;
                     }

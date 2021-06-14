@@ -1,0 +1,6 @@
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\InversionsInArray\bin\Debug\InversionsInArray.exe.config
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\InversionsInArray\bin\Debug\InversionsInArray.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\InversionsInArray\bin\Debug\InversionsInArray.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\InversionsInArray\obj\Debug\InversionsInArray.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\InversionsInArray\obj\Debug\InversionsInArray.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\InversionsInArray\obj\Debug\InversionsInArray.pdb
