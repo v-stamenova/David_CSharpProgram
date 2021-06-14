@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCalculator", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiggestAndSmallestElementOfArray", "BiggestAndSmallestElementOfArray\BiggestAndSmallestElementOfArray.csproj", "{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{FC4506A5-ED87-4C5C-B7B4-E5F8C29631AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB3A230-B5C7-43E1-9CF3-53BA0864BDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4506A5-ED87-4C5C-B7B4-E5F8C29631AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4506A5-ED87-4C5C-B7B4-E5F8C29631AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4506A5-ED87-4C5C-B7B4-E5F8C29631AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4506A5-ED87-4C5C-B7B4-E5F8C29631AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
