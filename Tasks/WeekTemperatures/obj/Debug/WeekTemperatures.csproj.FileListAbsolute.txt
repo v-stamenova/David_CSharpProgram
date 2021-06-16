@@ -1,0 +1,7 @@
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\WeekTemperatures\bin\Debug\WeekTemperatures.exe.config
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\WeekTemperatures\bin\Debug\WeekTemperatures.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\WeekTemperatures\bin\Debug\WeekTemperatures.pdb
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\WeekTemperatures\obj\Debug\WeekTemperatures.csprojAssemblyReference.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\WeekTemperatures\obj\Debug\WeekTemperatures.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\WeekTemperatures\obj\Debug\WeekTemperatures.exe
+C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\WeekTemperatures\obj\Debug\WeekTemperatures.pdb

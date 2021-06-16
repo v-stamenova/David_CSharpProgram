@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionsInArray", "Invers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfMatrix", "SumOfMatrix\SumOfMatrix.csproj", "{4B8E23BD-4EA5-444F-98B8-007FDA1058E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekTemperatures", "WeekTemperatures\WeekTemperatures.csproj", "{51E14E41-8DA9-4A09-BEF2-95381614CAEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{4B8E23BD-4EA5-444F-98B8-007FDA1058E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B8E23BD-4EA5-444F-98B8-007FDA1058E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B8E23BD-4EA5-444F-98B8-007FDA1058E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E14E41-8DA9-4A09-BEF2-95381614CAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E14E41-8DA9-4A09-BEF2-95381614CAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E14E41-8DA9-4A09-BEF2-95381614CAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E14E41-8DA9-4A09-BEF2-95381614CAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
