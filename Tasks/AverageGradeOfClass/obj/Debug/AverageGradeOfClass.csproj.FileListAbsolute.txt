@@ -1,7 +1,0 @@
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\AverageGradeOfClass\bin\Debug\AverageGradeOfClass.exe.config
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\AverageGradeOfClass\bin\Debug\AverageGradeOfClass.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\AverageGradeOfClass\bin\Debug\AverageGradeOfClass.pdb
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\AverageGradeOfClass\obj\Debug\AverageGradeOfClass.csprojAssemblyReference.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\AverageGradeOfClass\obj\Debug\AverageGradeOfClass.csproj.CoreCompileInputs.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\AverageGradeOfClass\obj\Debug\AverageGradeOfClass.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\AverageGradeOfClass\obj\Debug\AverageGradeOfClass.pdb
