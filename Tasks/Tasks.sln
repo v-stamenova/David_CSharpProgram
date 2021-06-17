@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionFormating", "Fracti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{27599175-29CE-4919-93D6-1A9D76B76537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldDiggers", "GoldDiggers\GoldDiggers.csproj", "{9C382D77-4F5C-4312-B628-1C1E4C526684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{27599175-29CE-4919-93D6-1A9D76B76537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27599175-29CE-4919-93D6-1A9D76B76537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27599175-29CE-4919-93D6-1A9D76B76537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C382D77-4F5C-4312-B628-1C1E4C526684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C382D77-4F5C-4312-B628-1C1E4C526684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C382D77-4F5C-4312-B628-1C1E4C526684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C382D77-4F5C-4312-B628-1C1E4C526684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
