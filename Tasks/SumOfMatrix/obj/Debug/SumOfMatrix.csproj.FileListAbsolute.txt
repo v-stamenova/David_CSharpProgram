@@ -1,7 +1,0 @@
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SumOfMatrix\bin\Debug\SumOfMatrix.exe.config
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SumOfMatrix\bin\Debug\SumOfMatrix.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SumOfMatrix\bin\Debug\SumOfMatrix.pdb
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SumOfMatrix\obj\Debug\SumOfMatrix.csprojAssemblyReference.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SumOfMatrix\obj\Debug\SumOfMatrix.csproj.CoreCompileInputs.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SumOfMatrix\obj\Debug\SumOfMatrix.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SumOfMatrix\obj\Debug\SumOfMatrix.pdb

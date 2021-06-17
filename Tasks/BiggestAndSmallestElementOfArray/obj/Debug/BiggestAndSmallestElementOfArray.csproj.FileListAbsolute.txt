@@ -1,7 +1,0 @@
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BiggestAndSmallestElementOfArray\bin\Debug\BiggestAndSmallestElementOfArray.exe.config
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BiggestAndSmallestElementOfArray\bin\Debug\BiggestAndSmallestElementOfArray.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BiggestAndSmallestElementOfArray\bin\Debug\BiggestAndSmallestElementOfArray.pdb
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BiggestAndSmallestElementOfArray\obj\Debug\BiggestAndSmallestElementOfArray.csprojAssemblyReference.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BiggestAndSmallestElementOfArray\obj\Debug\BiggestAndSmallestElementOfArray.csproj.CoreCompileInputs.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BiggestAndSmallestElementOfArray\obj\Debug\BiggestAndSmallestElementOfArray.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BiggestAndSmallestElementOfArray\obj\Debug\BiggestAndSmallestElementOfArray.pdb

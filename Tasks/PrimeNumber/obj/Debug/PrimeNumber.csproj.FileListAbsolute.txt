@@ -1,7 +1,0 @@
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\PrimeNumber\bin\Debug\PrimeNumber.exe.config
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\PrimeNumber\bin\Debug\PrimeNumber.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\PrimeNumber\bin\Debug\PrimeNumber.pdb
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\PrimeNumber\obj\Debug\PrimeNumber.csprojAssemblyReference.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\PrimeNumber\obj\Debug\PrimeNumber.csproj.CoreCompileInputs.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\PrimeNumber\obj\Debug\PrimeNumber.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\PrimeNumber\obj\Debug\PrimeNumber.pdb

@@ -1,6 +1,0 @@
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BubbleSort\bin\Debug\BubbleSort.exe.config
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BubbleSort\bin\Debug\BubbleSort.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BubbleSort\bin\Debug\BubbleSort.pdb
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BubbleSort\obj\Debug\BubbleSort.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\BubbleSort\obj\Debug\BubbleSort.pdb

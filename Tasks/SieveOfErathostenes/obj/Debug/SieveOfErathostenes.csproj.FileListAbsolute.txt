@@ -1,7 +1,0 @@
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SieveOfErathostenes\bin\Debug\SieveOfErathostenes.exe.config
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SieveOfErathostenes\bin\Debug\SieveOfErathostenes.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SieveOfErathostenes\bin\Debug\SieveOfErathostenes.pdb
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SieveOfErathostenes\obj\Debug\SieveOfErathostenes.csprojAssemblyReference.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SieveOfErathostenes\obj\Debug\SieveOfErathostenes.csproj.CoreCompileInputs.cache
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SieveOfErathostenes\obj\Debug\SieveOfErathostenes.exe
-C:\Users\valer\Desktop\Studying\David_CSharpProgram\Tasks\SieveOfErathostenes\obj\Debug\SieveOfErathostenes.pdb
