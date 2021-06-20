@@ -9,20 +9,21 @@ namespace GoldDiggers
 	class Program
 	{
 		static Field[,] fields;
+		static int m, n;
 
 		static void Main(string[] args)
 		{
-			string output = GetFieldBounds(100, 100);
-			List<int> values = output.Split(' ').Select(int.Parse).ToList();
-			CreateField(values[0], values[1]);
-			DrawField(values[0], values[1]);
+			GetFieldBounds(100, 100);
+			CreateField();
+			DrawField();
+			MoveSomeGuys();
+			DrawField();
 			Console.ResetColor();
 		}
 
-		static string GetFieldBounds(int maxX, int maxY)
+		static void GetFieldBounds(int maxX, int maxY)
 		{
 			Console.Write($"Please insert a value for x in the interval [10, {maxX}]: ");
-			string output = "";
 			string inserted = Console.ReadLine();
 			int num;
 
@@ -32,7 +33,7 @@ namespace GoldDiggers
 			}
 			else if(int.TryParse(inserted, out num) && (num > 9 && num < maxX))
 			{
-				output += inserted;
+				m = num;
 			}
 
 			Console.Write($"Please insert a value for y in the interval [10, {maxY}]: ");
@@ -44,22 +45,20 @@ namespace GoldDiggers
 			}
 			else if (int.TryParse(inserted, out num) && (num > 9 && num < maxY))
 			{
-				output += " " + inserted;
+				n = num;
 			}
-
-			return output;
 		}
 
-		static void CreateField(int m, int n)
+		static void CreateField()
 		{
 			fields = new Field[m, n];
 			Random random = new Random();
 			fields[random.Next(m), random.Next(n)] = Field.OurGuy;
-			FillMostOfTheField(m, n);
-			CheckForEmptySpaces(m, n);
+			FillTheField();
+			CheckForEmptySpaces();
 		}
 
-		static void DrawField(int m, int n)
+		static void DrawField()
 		{
 			for(int i = 0; i < m; i++)
 			{
@@ -101,7 +100,7 @@ namespace GoldDiggers
 			}
 		}
 
-		static void CheckForEmptySpaces(int m, int n)
+		static void CheckForEmptySpaces()
 		{
 			Random r = new Random();
 			for(int i = 0; i < m; i++)
@@ -117,18 +116,18 @@ namespace GoldDiggers
 			}
 		}
 
-		static void FillMostOfTheField(int m, int n)
+		static void FillTheField()
 		{
 			int used = 1;
-			used += SetPartOfField(5, Field.SomeGuy, m, n);
-			used += SetPartOfField(10, Field.Diamond, m, n);
-			SetPartOfField(40, Field.Ground, m, n, fields.Length - used);
-			SetPartOfField(30, Field.Grass, m, n, fields.Length - used);
-			SetPartOfField(20, Field.Tree, m, n, fields.Length - used);
-			SetPartOfField(10, Field.Stone, m, n, fields.Length - used);
+			used += SetField(5, Field.SomeGuy);
+			used += SetField(10, Field.Diamond);
+			SetField(40, Field.Ground, fields.Length - used);
+			SetField(30, Field.Grass, fields.Length - used);
+			SetField(20, Field.Tree, fields.Length - used);
+			SetField(10, Field.Stone, fields.Length - used);
 		}
 
-		static int SetPartOfField(int percentages, Field field, int m, int n)
+		static int SetField(int percentages, Field field)
 		{
 			Random random = new Random();
 			int x = 0;
@@ -153,7 +152,7 @@ namespace GoldDiggers
 			return count;
 		}
 
-		static void SetPartOfField(int percentages, Field field, int m, int n, int totalLeft)
+		static void SetField(int percentages, Field field, int totalLeft)
 		{
 			Random random = new Random();
 			int x = 0;
@@ -173,6 +172,54 @@ namespace GoldDiggers
 				}
 				fields[x, y] = field;
 				count++;
+			}
+		}
+
+		static void MoveGuy(int x, int y, Direction dir)
+		{
+			int newX = x;
+			int newY = y;
+			switch (dir)
+			{
+				case Direction.Up:
+					newX--;
+					break;
+				case Direction.Down:
+					newX++;
+					break;
+				case Direction.Left:
+					newY--;
+					break;
+				case Direction.Right:
+					newY++;
+					break;
+			}
+
+			if(newX <= m && newY <= n)
+			{
+				Field checkField = fields[newX, newY];
+				if(checkField == Field.Ground || checkField == Field.Grass || checkField == Field.Diamond)
+				{
+					Field moveFields = fields[x, y];
+					fields[newX, newY] = moveFields;
+					fields[x, y] = Field.Ground;
+				}
+			}
+		}
+
+		static void MoveSomeGuys()
+		{
+			for(int i = 0; i < m; i++)
+			{
+				for(int j = 0; j < n; j++)
+				{
+					while(fields[i, j] == Field.SomeGuy)
+					{
+						Random random = new Random();
+						Direction randomDirection = (Direction)random.Next(0, 5);
+						MoveGuy(i, j, randomDirection);
+					}
+				}
 			}
 		}
 	}
