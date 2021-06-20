@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace GoldDiggers
 {
@@ -10,15 +10,21 @@ namespace GoldDiggers
 	{
 		static Field[,] fields;
 		static int m, n;
+		static int ourGuyI, ourGuyJ;
+		static ConsoleKeyInfo ourGuyDirection;
 
 		static void Main(string[] args)
 		{
 			GetFieldBounds(100, 100);
 			CreateField();
-			DrawField();
-			MoveSomeGuys();
-			DrawField();
-			Console.ResetColor();
+			while (ourGuyDirection.Key != ConsoleKey.Escape)
+			{
+				Console.Clear();
+				DrawField();
+				MoveSomeGuys();
+				ProccesOuput(ref ourGuyDirection);
+				Thread.Sleep(100);
+			}
 		}
 
 		static void GetFieldBounds(int maxX, int maxY)
@@ -53,7 +59,9 @@ namespace GoldDiggers
 		{
 			fields = new Field[m, n];
 			Random random = new Random();
-			fields[random.Next(m), random.Next(n)] = Field.OurGuy;
+			ourGuyI = random.Next(m);
+			ourGuyJ = random.Next(n);
+			fields[ourGuyI, ourGuyJ] = Field.OurGuy;
 			FillTheField();
 			CheckForEmptySpaces();
 		}
@@ -175,51 +183,107 @@ namespace GoldDiggers
 			}
 		}
 
-		static void MoveGuy(int x, int y, Direction dir)
+		static string MoveGuy(int i, int j, Direction dir)
 		{
-			int newX = x;
-			int newY = y;
+			int newI = i;
+			int newJ = j;
 			switch (dir)
 			{
 				case Direction.Up:
-					newX--;
+					newI--;
 					break;
 				case Direction.Down:
-					newX++;
+					newI++;
 					break;
 				case Direction.Left:
-					newY--;
+					newJ--;
 					break;
 				case Direction.Right:
-					newY++;
+					newJ++;
 					break;
 			}
 
-			if(newX <= m && newY <= n)
+			if(newI < m && newI >= 0 && newJ < n && newJ >= 0)
 			{
-				Field checkField = fields[newX, newY];
+				Field checkField = fields[newI, newJ];
 				if(checkField == Field.Ground || checkField == Field.Grass || checkField == Field.Diamond)
 				{
-					Field moveFields = fields[x, y];
-					fields[newX, newY] = moveFields;
-					fields[x, y] = Field.Ground;
+					Field moveFields = fields[i, j];
+					fields[newI, newJ] = moveFields;
+					fields[i, j] = Field.Ground;
+					return $"{newI} {newJ}";
 				}
 			}
+			return "No success";
 		}
 
 		static void MoveSomeGuys()
 		{
+			List<string> locations = new List<string>();
 			for(int i = 0; i < m; i++)
 			{
 				for(int j = 0; j < n; j++)
 				{
-					while(fields[i, j] == Field.SomeGuy)
+					if (fields[i, j] == Field.SomeGuy)
 					{
-						Random random = new Random();
-						Direction randomDirection = (Direction)random.Next(0, 5);
-						MoveGuy(i, j, randomDirection);
+						if(!locations.Any(x => x.Split(' ').ToList()[0] == i.ToString() && x.Split(' ').ToList()[1] == j.ToString()))
+						{
+							Random random = new Random();
+							Direction randomDirection = (Direction)random.Next(0, 5);
+							string output = MoveGuy(i, j, randomDirection);
+							while (output == "No success")
+							{
+								randomDirection = (Direction)random.Next(0, 5);
+								output = MoveGuy(i, j, randomDirection);
+							}
+							locations.Add(output);
+						}
 					}
 				}
+			}
+		}
+
+		static string MoveOurGuy(Direction direction)
+		{
+			return MoveGuy(ourGuyI, ourGuyJ, direction);
+		}
+
+		static void ProccesOuput(ref ConsoleKeyInfo consoleKey)
+		{
+			consoleKey = Console.ReadKey();
+			if(consoleKey.Key != ConsoleKey.Escape)
+			{
+				string newCords = "";
+				while(fields[ourGuyI, ourGuyJ] == Field.OurGuy)
+				{
+					Direction dir = Direction.Down;
+					switch (consoleKey.Key)
+					{
+						case ConsoleKey.DownArrow:
+							dir = Direction.Down;
+							break;
+						case ConsoleKey.UpArrow:
+							dir = Direction.Up;
+							break;
+						case ConsoleKey.LeftArrow:
+							dir = Direction.Left;
+							break;
+						case ConsoleKey.RightArrow:
+							dir = Direction.Right;
+							break;
+						default:
+							Console.WriteLine("Please use the arrows to choose the direction of the guy");
+							break;
+					}
+					newCords = MoveOurGuy(dir);
+					if(newCords == "No success")
+					{
+						Console.WriteLine("Oh no, your guy bumped into something. Choose another direction");
+						consoleKey = Console.ReadKey();
+					}
+				}
+				ourGuyI = newCords.Split(' ').Select(int.Parse).ToList()[0];
+				ourGuyJ = newCords.Split(' ').Select(int.Parse).ToList()[1];
 			}
 		}
 	}
