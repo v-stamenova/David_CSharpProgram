@@ -1,5 +1,3 @@
-## Gold Diggers
+## Reverse array
 
-This console programm generates a fields filled with diamonds, guys, stones, grass and ground with dimentions specified by the user. The dark blue guys randomly go around the map, while the aqua guy is moved by the user. The goal is to get as many diamonds as possible. If you collect all diamonds or press escape the programm will show you how many diamonds you had collected 
-
-Must redo in the future
+This console program allows you to reverse an array. You can choose at the beggining if you want to specify its length or if you want to insert values until you insert an empty line. Then you can choose how to reverse the array - iteratively or recursively and then the reversed array will be displayed.
