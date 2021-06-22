@@ -12,12 +12,15 @@ namespace GoldDiggers
 		static int m, n;
 		static int ourGuyI, ourGuyJ;
 		static ConsoleKeyInfo ourGuyDirection;
+		static int diamonds;
+		static int remainingDiamonds;
 
 		static void Main(string[] args)
 		{
 			GetFieldBounds(100, 100);
 			CreateField();
-			while (ourGuyDirection.Key != ConsoleKey.Escape)
+			remainingDiamonds = diamonds;
+			while ((ourGuyDirection.Key != ConsoleKey.Escape) && remainingDiamonds != 0)
 			{
 				Console.Clear();
 				DrawField();
@@ -25,6 +28,9 @@ namespace GoldDiggers
 				ProccesOuput(ref ourGuyDirection);
 				Thread.Sleep(100);
 			}
+			Console.Clear();
+			Console.ForegroundColor = ConsoleColor.White;
+			Console.WriteLine($"Found diamonds: {(((double)(diamonds - remainingDiamonds) / diamonds) * 100)}%");
 		}
 
 		static void GetFieldBounds(int maxX, int maxY)
@@ -128,7 +134,8 @@ namespace GoldDiggers
 		{
 			int used = 1;
 			used += SetField(5, Field.SomeGuy);
-			used += SetField(10, Field.Diamond);
+			diamonds = SetField(10, Field.Diamond);
+			used += diamonds;
 			SetField(40, Field.Ground, fields.Length - used);
 			SetField(30, Field.Grass, fields.Length - used);
 			SetField(20, Field.Tree, fields.Length - used);
@@ -208,6 +215,10 @@ namespace GoldDiggers
 				Field checkField = fields[newI, newJ];
 				if(checkField == Field.Ground || checkField == Field.Grass || checkField == Field.Diamond)
 				{
+					if (checkField == Field.Diamond)
+					{
+						remainingDiamonds--;
+					}
 					Field moveFields = fields[i, j];
 					fields[newI, newJ] = moveFields;
 					fields[i, j] = Field.Ground;
@@ -282,6 +293,7 @@ namespace GoldDiggers
 						consoleKey = Console.ReadKey();
 					}
 				}
+				ourGuyDirection = consoleKey;
 				ourGuyI = newCords.Split(' ').Select(int.Parse).ToList()[0];
 				ourGuyJ = newCords.Split(' ').Select(int.Parse).ToList()[1];
 			}
