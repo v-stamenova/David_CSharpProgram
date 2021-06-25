@@ -45,7 +45,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldDiggers", "GoldDiggers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchInSortedArray", "BinarySearchInSortedArray\BinarySearchInSortedArray.csproj", "{E22FD2F7-2377-4E36-858E-4AA7F491A317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPathInMaze", "FindPathInMaze\FindPathInMaze.csproj", "{C24F6638-D593-499C-B95F-4E9072B87965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPathInMaze", "FindPathInMaze\FindPathInMaze.csproj", "{C24F6638-D593-499C-B95F-4E9072B87965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteorologicalInformation", "MeteorologicalInformation\MeteorologicalInformation.csproj", "{74014176-DDFF-4D4C-809D-900474A67BEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{C24F6638-D593-499C-B95F-4E9072B87965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24F6638-D593-499C-B95F-4E9072B87965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24F6638-D593-499C-B95F-4E9072B87965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74014176-DDFF-4D4C-809D-900474A67BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74014176-DDFF-4D4C-809D-900474A67BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74014176-DDFF-4D4C-809D-900474A67BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74014176-DDFF-4D4C-809D-900474A67BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
