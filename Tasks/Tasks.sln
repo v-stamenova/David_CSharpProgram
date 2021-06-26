@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPathInMaze", "FindPathI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteorologicalInformation", "MeteorologicalInformation\MeteorologicalInformation.csproj", "{74014176-DDFF-4D4C-809D-900474A67BEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsAndDrivers", "CarsAndDrivers\CarsAndDrivers.csproj", "{0588C30A-8042-471C-9E95-A61A717D0B5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{74014176-DDFF-4D4C-809D-900474A67BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74014176-DDFF-4D4C-809D-900474A67BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74014176-DDFF-4D4C-809D-900474A67BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0588C30A-8042-471C-9E95-A61A717D0B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0588C30A-8042-471C-9E95-A61A717D0B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0588C30A-8042-471C-9E95-A61A717D0B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0588C30A-8042-471C-9E95-A61A717D0B5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
