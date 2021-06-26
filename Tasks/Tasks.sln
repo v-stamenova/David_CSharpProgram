@@ -47,9 +47,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchInSortedArray",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPathInMaze", "FindPathInMaze\FindPathInMaze.csproj", "{C24F6638-D593-499C-B95F-4E9072B87965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteorologicalInformation", "MeteorologicalInformation\MeteorologicalInformation.csproj", "{74014176-DDFF-4D4C-809D-900474A67BEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeteorologicalInformation", "MeteorologicalInformation\MeteorologicalInformation.csproj", "{74014176-DDFF-4D4C-809D-900474A67BEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsAndDrivers", "CarsAndDrivers\CarsAndDrivers.csproj", "{0588C30A-8042-471C-9E95-A61A717D0B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsAndDrivers", "CarsAndDrivers\CarsAndDrivers.csproj", "{0588C30A-8042-471C-9E95-A61A717D0B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricalFigures", "GeometricalFigures\GeometricalFigures.csproj", "{B5567391-EE79-43D9-991D-6E925D5CD138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{0588C30A-8042-471C-9E95-A61A717D0B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0588C30A-8042-471C-9E95-A61A717D0B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0588C30A-8042-471C-9E95-A61A717D0B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5567391-EE79-43D9-991D-6E925D5CD138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5567391-EE79-43D9-991D-6E925D5CD138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5567391-EE79-43D9-991D-6E925D5CD138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5567391-EE79-43D9-991D-6E925D5CD138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
