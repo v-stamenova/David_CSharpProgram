@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricalFigures", "Geome
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareAcademy", "SoftwareAcademy\SoftwareAcademy.csproj", "{2B6AC1DD-64A0-4535-9AF3-0D77464CD49A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{42EFB607-224C-4634-AAA3-0D427CBBC3AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{2B6AC1DD-64A0-4535-9AF3-0D77464CD49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B6AC1DD-64A0-4535-9AF3-0D77464CD49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B6AC1DD-64A0-4535-9AF3-0D77464CD49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EFB607-224C-4634-AAA3-0D427CBBC3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EFB607-224C-4634-AAA3-0D427CBBC3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EFB607-224C-4634-AAA3-0D427CBBC3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EFB607-224C-4634-AAA3-0D427CBBC3AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
