@@ -43,9 +43,18 @@ namespace GeometricalFigures
 
 		public Point2D(double firstCoord, double secondCoord, CoordinateSystem system)
 		{
-			this.firstCoord = firstCoord;
-			this.secondCoord = secondCoord;
-			this.coordinateSystem = system;
+			if(system != CoordinateSystem.Cartesian)
+			{
+				double x = firstCoord * Math.Cos(this.secondCoord);
+				double y = firstCoord * Math.Sin(this.secondCoord);
+				this.firstCoord = x;
+				this.secondCoord = y;
+			}
+			else
+			{
+				this.firstCoord = firstCoord;
+				this.secondCoord = secondCoord;
+			}
 		}
 
 		public string PolarCoordinates()
@@ -54,9 +63,9 @@ namespace GeometricalFigures
 			{
 				double r = Math.Sqrt(Math.Pow(this.firstCoord, 2) + Math.Pow(this.secondCoord, 2));
 				double phi = Math.Pow((this.secondCoord / this.firstCoord), -1);
-				return $"r: {r} θ: {phi}";
+				return $"( {r} , {phi} )";
 			}
-			return $"r: {this.firstCoord} θ: {this.secondCoord}";
+			return $"( {this.firstCoord} , {this.secondCoord} )";
 		}
 
 		public string CartesianCoordinates()
@@ -65,16 +74,14 @@ namespace GeometricalFigures
 			{
 				double x = this.firstCoord * Math.Cos(this.secondCoord);
 				double y = this.firstCoord * Math.Sin(this.secondCoord);
-				return $"x: {x} y: {y}";
+				return $"( {x} , {y} )";
 			}
-			return $"x: {this.firstCoord} y: {this.secondCoord}";
+			return $"( {this.firstCoord} , {this.secondCoord} )";
 		}
 
 		public double DistanceToPoint(Point2D point)
 		{
-			List<string> thisData = CartesianCoordinates().Split(' ').ToList();
-			List<string> pointData = point.CartesianCoordinates().Split(' ').ToList();
-			double squaredDistance = Math.Pow(double.Parse(thisData[1]) - double.Parse(pointData[1]), 2) + Math.Pow(double.Parse(thisData[3]) - double.Parse(pointData[3]), 2);
+			double squaredDistance = Math.Pow((point.firstCoord - this.firstCoord), 2) + Math.Pow((point.secondCoord - this.secondCoord), 2);
 			return Math.Sqrt(squaredDistance);
 		}
 	}
