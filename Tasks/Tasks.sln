@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{BF144D24-AE48-4D8E-9EF6-896D1BA13759}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSortingAlgorithms", "GenericSortingAlgorithms\GenericSortingAlgorithms.csproj", "{7C0FBA9A-4E77-4F7F-A38C-D93A6D851561}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{BF144D24-AE48-4D8E-9EF6-896D1BA13759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF144D24-AE48-4D8E-9EF6-896D1BA13759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF144D24-AE48-4D8E-9EF6-896D1BA13759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0FBA9A-4E77-4F7F-A38C-D93A6D851561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0FBA9A-4E77-4F7F-A38C-D93A6D851561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0FBA9A-4E77-4F7F-A38C-D93A6D851561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0FBA9A-4E77-4F7F-A38C-D93A6D851561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
