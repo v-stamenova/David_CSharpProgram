@@ -23,9 +23,16 @@ namespace PriorityQueue
 			}
 		}
 
-		public string Peek()
+		public Element<T> Peek()
 		{
-			return queue[0].ToString();
+			return queue[0];
+		}
+
+		public Element<T> Pop()
+		{
+			Element<T> firstElement = Peek();
+			queue.RemoveAt(0);
+			return firstElement;
 		}
 
 		IEnumerator IEnumerable.GetEnumerator()
