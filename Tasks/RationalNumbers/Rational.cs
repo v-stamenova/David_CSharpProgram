@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RationalNumbers
 {
@@ -52,9 +50,40 @@ namespace RationalNumbers
 			return new Rational(a.numerator * b.denumerator, a.denumerator * b.numerator);
 		}
 
-		//public static implicit operator Rational(int number)
-		//{
+		public static implicit operator Rational(int number) => new Rational(number, 1);
 
-		//}
+		public static implicit operator float(Rational rational) => rational.numerator / rational.denumerator;
+
+		public static implicit operator double(Rational rational) => rational.numerator / rational.denumerator;
+
+		public static implicit operator decimal(Rational rational) => rational.numerator / rational.denumerator;
+
+		public static explicit operator int(Rational rational) => rational.numerator % rational.denumerator;
+
+		public Rational Reciprocal()
+		{
+			return new Rational(this.denumerator, this.numerator);
+		}
+
+		public override string ToString()
+		{
+			return $"{this.numerator} / {this.denumerator}";
+		}
+
+		public override bool Equals(object obj)
+		{
+			return this.CompareTo(obj) == 0;
+		}
+
+		public int CompareTo(object obj)
+		{
+			return this.CompareTo((Rational)obj);
+		}
+
+		public override int GetHashCode()
+		{
+			return base.GetHashCode();
+		}
+
 	}
 }
