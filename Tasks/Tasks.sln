@@ -53,9 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsAndDrivers", "CarsAndDr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricalFigures", "GeometricalFigures\GeometricalFigures.csproj", "{B5567391-EE79-43D9-991D-6E925D5CD138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareAcademy", "SoftwareAcademy\SoftwareAcademy.csproj", "{2B6AC1DD-64A0-4535-9AF3-0D77464CD49A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareAcademy", "SoftwareAcademy\SoftwareAcademy.csproj", "{2B6AC1DD-64A0-4535-9AF3-0D77464CD49A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{42EFB607-224C-4634-AAA3-0D427CBBC3AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{42EFB607-224C-4634-AAA3-0D427CBBC3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\AddressBook.csproj", "{5E682B9E-01A0-4C0B-9400-0150087D6861}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{42EFB607-224C-4634-AAA3-0D427CBBC3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42EFB607-224C-4634-AAA3-0D427CBBC3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42EFB607-224C-4634-AAA3-0D427CBBC3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E682B9E-01A0-4C0B-9400-0150087D6861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E682B9E-01A0-4C0B-9400-0150087D6861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E682B9E-01A0-4C0B-9400-0150087D6861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E682B9E-01A0-4C0B-9400-0150087D6861}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
