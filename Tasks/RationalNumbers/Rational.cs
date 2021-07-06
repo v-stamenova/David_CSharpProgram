@@ -27,17 +27,23 @@ namespace RationalNumbers
 
 		public static Rational operator+ (Rational a, Rational b)
 		{
-			return new Rational((a.numerator * b.denumerator + a.denumerator * b.numerator), a.denumerator * b.denumerator);
+			Rational rational = new Rational((a.numerator * b.denumerator + a.denumerator * b.numerator), a.denumerator * b.denumerator);
+			rational.Transform();
+			return rational;
 		}
 
 		public static Rational operator- (Rational a, Rational b)
 		{
-			return new Rational((a.numerator * b.denumerator - a.denumerator * b.numerator), a.denumerator * b.denumerator);
+			Rational rational =  new Rational((a.numerator * b.denumerator - a.denumerator * b.numerator), a.denumerator * b.denumerator);
+			rational.Transform();
+			return rational;
 		}
 
 		public static Rational operator* (Rational a, Rational b)
 		{
-			return new Rational(a.numerator * b.numerator, a.denumerator * b.denumerator);
+			Rational rational = new Rational(a.numerator * b.numerator, a.denumerator * b.denumerator);
+			rational.Transform();
+			return rational;
 		}
 
 		public static Rational operator/ (Rational a, Rational b)
@@ -47,7 +53,9 @@ namespace RationalNumbers
 				throw new DivideByZeroException();
 			}
 
-			return new Rational(a.numerator * b.denumerator, a.denumerator * b.numerator);
+			Rational rational = new Rational(a.numerator * b.denumerator, a.denumerator * b.numerator);
+			rational.Transform();
+			return rational;
 		}
 
 		public static implicit operator Rational(int number) => new Rational(number, 1);
@@ -84,6 +92,21 @@ namespace RationalNumbers
 		{
 			return base.GetHashCode();
 		}
+		
+		public void Transform()
+		{
+			int a = this.numerator;
+			int b = this.denumerator;
 
+			while(b != 0)
+			{
+				int old = b;
+				b = a % b;
+				a = old;
+			}
+
+			this.numerator /= a;
+			this.denumerator /= a;
+		}
 	}
 }
