@@ -37,13 +37,9 @@ namespace Bargain
 			}
 			set
 			{
-				if (string.IsNullOrWhiteSpace(password))
+				if (string.IsNullOrWhiteSpace(value))
 				{
 					throw new ArgumentNullException("The password cannot be empty");
-				}
-				else if(value.Length < 8)
-				{
-					throw new ArgumentException("The password cannot be less than 8 symbols");
 				}
 				else
 				{

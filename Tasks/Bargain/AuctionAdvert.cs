@@ -6,6 +6,7 @@ namespace Bargain
 	{
 		private decimal startingPrice;
 		private DateTime auctionTime;
+		private User lastBidder;
 
 		public decimal StartingPrice
 		{
@@ -45,10 +46,29 @@ namespace Bargain
 			}
 		}
 
+		public User LastBidder { get => this.lastBidder; set => this.lastBidder = value; }
+
 		public AuctionAdvert(string itemDescription, User registeredBy, decimal startingPrice, DateTime auctionTime) : base(itemDescription, registeredBy)
 		{
 			this.StartingPrice = startingPrice;
 			this.AuctionTime = auctionTime;
+		}
+
+		public void Bid(decimal bid, User bidder)
+		{
+			if(bid <= this.startingPrice)
+			{
+				throw new ArgumentException("The bid cannot be less or equal to the starting price");
+			}
+			else if (!this.Active)
+			{
+				throw new Exception("The advert is unactive");
+			}
+			else
+			{
+				this.LastBidder = bidder;
+				this.startingPrice = bid;
+			}
 		}
 	}
 }

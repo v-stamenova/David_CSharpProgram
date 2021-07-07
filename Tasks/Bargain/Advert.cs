@@ -74,5 +74,13 @@ namespace Bargain
 			this.endDate = DateTime.Now;
 			winner.WonAdverts.Add(this);
 		}
+
+		public void EndAdvert(User winner, DateTime endDate)
+		{
+			this.wonBy = winner;
+			this.active = false;
+			this.endDate = endDate;
+			winner.WonAdverts.Add(this);
+		}
 	}
 }
